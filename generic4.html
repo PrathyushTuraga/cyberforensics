@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Module 4 - TTU - Cyber Forensics</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<img src="images/TTUCS-logo.JPG" alt="" />
+									<!--<span class="symbol"></span><span class="title"></span>-->
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="generic1.html">Module 1</a></li>
+							<li><a href="generic2.html">Module 2</a></li>
+							<li><a href="generic3.html">Module 3</a></li>
+							<li><a href="generic4.html">Module 4</a></li>
+							<li><a href="generic5.html">Module 5</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+				<div id="main">
+					<div class="inner">
+						<h1>Module 4</h1>
+						<!--<span class="image main"><img src="images/pic13.jpg" alt="" /></span>-->
+						<span class="image main"><img src="images/ttu/images/pic4.jpg" alt="" /></span>
+						<br>
+						<h2><font size="6">&#8608;</font><font color="blue">1.1</font> Description</h2>
+						<p>In this incident, we will install the modified APK file on mobile device (or) a AVD (Android Virtual Device) on Android Studio. Also, we will setup web server with Python on local system.</p>
+						<br>
+						<h2><font size="6">&#8608;</font><font color="blue">1.4</font> Instructions</h2>
+						<p>
+							<ul>
+								<li>Step1: Email the login.apk file provided under "Incident 3: Artifacts" to the target device.</li>
+								<li>Step2: On the device, download attachment from email, click install and then open the app.</li>
+								
+								<li>Step3: If you are using Android Studio, create a new Android Virtual Device (AVD).</li><br>
+								&emsp;&emsp;&emsp;<a href="https://www.youtube.com/watch?v=x_lvdLil0Fk">https://www.youtube.com/watch?v=x_lvdLil0Fk</a>
+								<br><br>
+								&emsp;&emsp;&emsp;<img src="images/ttu/Incident4/AVD_Setup.PNG" width="70%" height="70%"><br>
+								&emsp;&emsp;&emsp;(Note2: Recommended configurations for device are Pixel 3 API 27 (Oreo) - Android 8.1. You can see these configurations while setting up AVD)
+								<br>
+								<li>Step4: When device is ready, you can see android home screen as shown in below screenshot</li><br>
+									<img src="images/ttu/Incident4/device-ready.PNG" width="50%" height="50%"><br>
+								<li>Step5: Go to apps page on device inside emulator window. Now drag & drop login.apk file from your local file system onto the device inside emulator.</li>
+								<br>&emsp;&emsp;&emsp;<a href="https://www.youtube.com/watch?v=UtkYGh7EE3A">https://www.youtube.com/watch?v=UtkYGh7EE3A</a>
+								<br>
+								<br>&emsp;&emsp;&emsp;(Note: You can refer this link for steps to install app on AVD in android studio)
+								<br>
+								<li>Step6: After installation, open app and observe the pages</li>
+								<br>
+								<li>Step7: Next step is to setup server on your local computer. Make sure python is installed on your computer for setting up web server.</li>
+								<br>
+								<li>Step8: Open new command prompt and execute below command according to python version installed. Use port 8080 for the http server.</li>
+								<br>&emsp;&emsp;&emsp;(For Python 2.X -> python -m SimpleHTTPServer 8080)
+								<br>&emsp;&emsp;&emsp;(For Python 3.X -> python -m http.server 8080)
+								<br>
+								<br>&emsp;&emsp;&emsp;<img src="images/ttu/Incident4/python-web-server.PNG" width="50%" height="50%">
+							</ul>	
+						</p>
+						<br>
+						<h2><font size="6">&#8608;</font><font color="blue">1.5</font><font color="orange">&starf; &starf; &starf;</font> Challenge <font color="orange">&starf; &starf; &starf;</font> </h2>
+						<p>In this section, you will find answers (flags) to below questions.</p>
+						<a href="Challenge4.html">Start Quiz</a>
+						
+						
+					</div>
+				</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Contact Us</h2>
+								<form method="post" action="https://formspree.io/f/xoqrzgeo">
+									<div class="fields">
+										<div class="field half">
+											<input type="text" name="name" id="name" placeholder="Name" />
+										</div>
+										<div class="field half">
+											<input type="email" name="email" id="email" placeholder="Email" />
+										</div>
+										<div class="field">
+											<textarea name="message" id="message" placeholder="Message"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send" class="primary" /></li>
+									</ul>
+								</form>
+							</section>
+							<section>
+								<h2>Follow</h2>
+								<ul class="icons">
+									<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-500px"><span class="label">500px</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Texas Tech University. All rights reserved</li>
+								<!--<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>-->
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+			<link rel="stylesheet" href="AIchat.v1.css" type="text/css" media="screen" />
+			<script type="text/javascript" src="dependencies.v1.js"></script>
+			 <script type="text/javascript" src="AIchat.v1.js"></script>
+	</body>
+</html>
